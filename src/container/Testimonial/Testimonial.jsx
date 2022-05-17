@@ -26,7 +26,7 @@ const Testimonial = () => {
       {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
-            <img src={urlFor(testimonials[currentIndex].imageurl)} alt={testimonials[currentIndex].name} />
+            <a href={testimonials[currentIndex].linkedin}><img src={urlFor(testimonials[currentIndex].imageurl)} alt={testimonials[currentIndex].name} /></a>
             <div className="app__testimonial-content">
               <p className="p-text">{testimonials[currentIndex].feedback}</p>
               <div>
