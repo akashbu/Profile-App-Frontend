@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="app__footer-card">
           <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">+91 9604334311</a>
+          <a href="tel:+1 (123) 456-7890" className="p-text">+1 657-525-9734</a>
         </div>
       </div>
       {!isFormSubmitted ? (
